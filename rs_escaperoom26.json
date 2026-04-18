@@ -10,26 +10,8 @@
     ],
     "schema": [
         {
-            "name": "PiratesWithOSCCalcs",
+            "name": "Pirates3",
             "parameters": [
-                {
-                    "group": "Custom Events",
-                    "displayName": "OnOscMessageReceived_Event",
-                    "key": "OnOscMessageReceived_Event",
-                    "type": 5,
-                    "min": 0.0,
-                    "max": 1.0,
-                    "step": 0.10000000149011612,
-                    "defaultValue": {
-                        "index": 0,
-                        "data": 0.0
-                    },
-                    "options": [],
-                    "dmxOffset": -1,
-                    "dmxType": 2,
-                    "noSequence": false,
-                    "readOnly": false
-                },
                 {
                     "group": "YIPPEE_CONFIG",
                     "displayName": "ClearSky",
@@ -53,8 +35,8 @@
                 },
                 {
                     "group": "Default",
-                    "displayName": "PhoneVelocity",
-                    "key": "PhoneVelocity",
+                    "displayName": "ShipOrientation",
+                    "key": "ShipOrientation",
                     "type": 0,
                     "min": -1.0,
                     "max": 1.0,
@@ -88,31 +70,13 @@
                     "readOnly": false
                 },
                 {
-                    "group": "Default",
-                    "displayName": "TurnCoeff",
-                    "key": "TurnCoeff",
+                    "group": "YIPPEE_CONFIG",
+                    "displayName": "YIPPEE",
+                    "key": "YIPPEE",
                     "type": 0,
-                    "min": -1.0,
-                    "max": 1.0,
-                    "step": 0.0010000000474974514,
-                    "defaultValue": {
-                        "index": 0,
-                        "data": 0.0
-                    },
-                    "options": [],
-                    "dmxOffset": -1,
-                    "dmxType": 2,
-                    "noSequence": false,
-                    "readOnly": false
-                },
-                {
-                    "group": "Default",
-                    "displayName": "TurnOffset",
-                    "key": "TurnOffset",
-                    "type": 0,
-                    "min": -1.0,
-                    "max": 1.0,
-                    "step": 0.0010000000474974514,
+                    "min": -1000.0,
+                    "max": 1000.0,
+                    "step": 1.0,
                     "defaultValue": {
                         "index": 0,
                         "data": 0.0
